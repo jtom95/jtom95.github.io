@@ -2,17 +2,17 @@
 # coding: utf-8
 
 # # Publications markdown generator for academicpages
-# 
-# Takes a set of bibtex of publications and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)). 
-# 
-# The core python code is also in `pubsFromBibs.py`. 
+#
+# Takes a set of bibtex of publications and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)).
+#
+# The core python code is also in `pubsFromBibs.py`.
 # Run either from the `markdown_generator` folder after replacing updating the publist dictionary with:
 # * bib file names
 # * specific venue keys based on your bib file preferences
 # * any specific pre-text for specific files
 # * Collection Name (future feature)
-# 
-# TODO: Make this work with other databases of citations, 
+#
+# TODO: Make this work with other databases of citations,
 # TODO: Merge this with the existing TSV parsing solution
 
 
@@ -24,24 +24,22 @@ import html
 import os
 import re
 
-#todo: incorporate different collection types rather than a catch all publications, requires other changes to template
+# #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : "proceedings.bib",
+        "file": "proceedings.bib",
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-        
+        "collection": {"name": "publications", "permalink": "/publication/"},
     },
-    "journal":{
-        "file": "pubs.bib",
-        "venuekey" : "journal",
-        "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-    } 
+    "journal": {
+        "file": "my_publications.bib",
+        "venuekey": "journal",
+        "venue-pretext": "",
+        "collection": {"name": "publications", "permalink": "/publication/"},
+    },
 }
+
 
 html_escape_table = {
     "&": "&amp;",
