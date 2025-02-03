@@ -36,7 +36,12 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">
+      <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
+      {% if post.volume %}, vol. {{ post.volume }}{% endif %}
+      {% if post.pages %}, pp. {{ post.pages }}{% endif %}
+      {% if post.doi %}, DOI: <a href="https://doi.org/{{ post.doi }}">{{ post.doi }}</a>{% endif %}
+      {% if post.note %}, ({{ post.note }}){% endif %}</p> {% endif %}
     </li>
  </article>
 </div>
