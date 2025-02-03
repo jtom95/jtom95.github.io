@@ -33,7 +33,12 @@ redirect_from:
 - Developed **adaptive sampling & surrogate modeling** techniques for EMC applications.  
 - Worked on **machine learning models for electromagnetic field analysis**.  
 
-### **Research Intern (CERN, Geneva)**  
+### **R&D Intern (Edison, Milan, Italy)**  
+📍 *Edison S.p.A | 2019 (6 months)*  
+- Managed projects on **Technological Innovation & Development**.  
+- Collaborated with **Divisions and Business Units** on research-driven energy solutions.  
+
+### **Summer Intern (CERN, Geneva)**  
 📍 *CERN – European Organization for Nuclear Research | Summer 2019*  
 - Evaluated **CERN-developed technology** for commercialization.  
 - Conducted **market feasibility studies & business planning** for scientific innovations.  
