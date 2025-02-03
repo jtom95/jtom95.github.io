@@ -49,7 +49,7 @@ permalink_prefix = "/publication/"
 
 def get_category(entry):
     if entry.type == "article":
-        return "publications"
+        return "manuscripts"
     elif entry.type == "inproceedings":
         return "conferences"
     else:
