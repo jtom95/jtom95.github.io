@@ -1,8 +1,18 @@
+.cv-download-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing */
+    margin-bottom: 15px;
+}
+  
+.cv-download-text {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+  
 .cv-buttons {
     display: flex;
-    justify-content: center; /* Center align */
-    gap: 10px; /* Space between buttons */
-    margin-bottom: 10px; /* Space below buttons */
+    gap: 10px;
 }
 
 .cv-button {

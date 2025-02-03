@@ -9,16 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-## Download
-
-<!-- CV Download Buttons -->
-<div class="cv-buttons">
-  <a href="{{ site.baseurl }}/files/CVf_1page.pdf" target="_blank" class="cv-button">📄 One Page Resume</a>
-  <a href="{{ site.baseurl }}/assets/CV.pdf" target="_blank" class="cv-button">📜 Long Resume</a>
+<!-- CV Download Section -->
+<div class="cv-download-container">
+  <span class="cv-download-text">📥 Download:</span>
+  <div class="cv-buttons">
+    <a href="{{ site.baseurl }}/files/CVf_1page.pdf" target="_blank" class="cv-button">📄 One Page Resume</a>
+    <a href="{{ site.baseurl }}/assets/CV.pdf" target="_blank" class="cv-button">📜 Long Resume</a>
+  </div>
 </div>
 
-<!-- Add spacing before the main content -->
-<br>
+---
 
 ## 🎓 Education  
 
@@ -29,7 +29,9 @@ redirect_from:
 - **M.Sc. in Electrical Engineering** – Politecnico di Milano & Torino (*2017 - 2020*, *cum laude*)  
   *Alta Scuola Politecnica* – Specialized in technology, innovation & entrepreneurship  
 
-- **B.Sc. in Electrical Engineering** - Politecnico di Milano (2014-2017, 110/110)
+- **B.Sc. in Electrical Engineering** – Politecnico di Milano (*2014 - 2017*, *110/110*)  
+
+---
 
 ## 💼 Work Experience  
 
@@ -49,8 +51,7 @@ redirect_from:
 - Evaluated **CERN-developed technology** for commercialization.  
 - Conducted **market feasibility studies & business planning** for scientific innovations.  
 
-
-### **Entrepreneurship Program**  
+### **Entrepreneurship Program – AI & IoT for Sustainability**  
 📍 *VENTO Startup & Entrepreneurship School | 2018 - 2019*  
 - Developed an **AI-powered smart waste-sorting bin** using **Raspberry Pi & deep learning**.  
 - Fine-tuned the **VGG16 CNN model** for **real-time object classification**.  
