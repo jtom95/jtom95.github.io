@@ -1,0 +1,20 @@
+{% comment %}
+  A new card-style layout for publications.
+{% endcomment %}
+<div class="publication-item">
+    <h2 class="publication-title">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      {% endif %}
+    </h2>
+    
+    <p class="publication-authors">{{ post.authors }}</p>
+  
+    <p class="publication-meta">
+      <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
+      {% if post.volume %}, vol. {{ post.volume }}{% endif %}
+      {% if post.pages %}, pp. {{ post.pages }}{% endif %}
+    </p>
+  </div>
