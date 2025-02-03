@@ -47,6 +47,15 @@ permalink_prefix = "/publication/"
 # ---------------------------
 
 
+def get_category(entry):
+    if entry.type == "article":
+        return "publications"
+    elif entry.type == "inproceedings":
+        return "conferences"
+    else:
+        return "other"  
+
+
 def html_escape(text):
     """Escape HTML characters in text."""
     return html.escape(text, quote=True)
@@ -96,6 +105,18 @@ def get_date(fields):
 
     return f"{year}-{month}-{day}"
 
+def get_author_list(entry):
+    """
+    Get a list of authors from the BibTeX entry.
+    """
+    persons = entry.persons.get("author", [])
+    authors = []
+    for person in persons:
+        # Join first names and last names.
+        author_name = " ".join(person.first_names + person.last_names)
+        authors.append(author_name)
+    return authors
+
 
 def build_citation(entry):
     """
@@ -107,12 +128,13 @@ def build_citation(entry):
     fields = entry.fields
     persons = entry.persons.get("author", [])
 
-    # Build authors list.
-    authors = []
-    for person in persons:
-        # Join first names and last names.
-        author_name = " ".join(person.first_names + person.last_names)
-        authors.append(author_name)
+    # # Build authors list.
+    # authors = []
+    # for person in persons:
+    #     # Join first names and last names.
+    #     author_name = " ".join(person.first_names + person.last_names)
+    #     authors.append(author_name)
+    authors = get_author_list(entry)
     authors_str = ", ".join(authors) if authors else "Unknown Author"
 
     # Get title.
@@ -131,6 +153,13 @@ def build_citation(entry):
     return citation
 
 
+def get_doi(entry):
+    """
+    Get the DOI from the BibTeX entry.
+    """
+    doi = entry.fields.get("doi", "")
+    return doi
+
 def build_markdown(entry):
     """
     Build the Markdown text (front-matter + optional content) from a BibTeX entry.
@@ -141,12 +170,17 @@ def build_markdown(entry):
     title = fields.get("title", "No Title").replace("{", "").replace("}", "")
     title = title.strip()
     title_escaped = html_escape(title)
+    
+    # authors
+    authors = get_author_list(entry)
+    author_string = ", ".join(authors)
 
     # Date (using year, month, day if available)
     pub_date = get_date(fields)
 
     # Slug for permalink and filename
     slug = slugify(title)
+    
 
     # Permalink
     permalink = f"{permalink_prefix}{pub_date}-{slug}"
@@ -172,8 +206,10 @@ def build_markdown(entry):
     md = "---\n"
     md += f'title: "{title_escaped}"\n'
     md += f"collection: {collection}\n"
-    md += f"category: {category}\n"
+    md += f"category: {get_category(entry)}\n"
     md += f"permalink: {permalink}\n"
+    md += f"authors: '{author_string}'\n"
+    md += f"doi: '{get_doi(entry)}'\n"
     if excerpt_escaped:
         md += f"excerpt: '{excerpt_escaped}'\n"
     md += f"date: {pub_date}\n"
