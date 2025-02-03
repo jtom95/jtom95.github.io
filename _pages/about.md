@@ -49,9 +49,9 @@ Built an **AI-powered waste-sorting bin** using **Raspberry Pi + deep learning**
   *Focus:* Data-driven & simulation-based EMC testing for CubeSats.  
 - **Double MSc in Electrical Engineering** (Politecnico di Milano & Torino, *cum laude*)  
   *Alta Scuola Politecnica* – Specialized in technology, innovation & entrepreneurship.  
-- **Research Experiences at:** **ESA, CERN, TUHH**  
-  - **CERN (2019 Summer Internship)**: Explored feasibility studies & commercialization of CERN-developed technologies.  
+- **Research Experiences**:  
   - **TUHH (Hamburg University of Technology)**: Worked on **adaptive sampling & surrogate modeling** for EMC applications.  
+  - **CERN (2019 Summer Internship)**: Explored feasibility studies & commercialization of CERN-developed technologies.  
 
 ---
 
@@ -60,7 +60,7 @@ Built an **AI-powered waste-sorting bin** using **Raspberry Pi + deep learning**
 Beyond academia, I am passionate about **machine learning, statistics and open-source AI tools**. I regularly explore:  
 
 - **Testing and developing new AI-driven tools**
-- **Deep learning & neural networks** and their probabilistic interpretation.  
+- **Probabilistic Interpretation of Deep learning & neural networks**.
 - **Bayesian optimization & uncertainty quantification**.  
 
 Find my latest projects on [**GitHub**](https://github.com/jtom95) or connect with me on [**LinkedIn**](https://www.linkedin.com/in/tomas-monopoli-1b8600161).  
