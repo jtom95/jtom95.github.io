@@ -167,6 +167,13 @@ def get_doi(entry):
     doi = entry.fields.get("doi", "")
     return doi
 
+def get_abstract(entry):
+    """
+    Get the abstract from the BibTeX entry.
+    """
+    abstract = entry.fields.get("abstract", "")
+    return abstract
+
 def build_markdown(entry):
     """
     Build the Markdown text (front-matter + optional content) from a BibTeX entry.
@@ -177,7 +184,7 @@ def build_markdown(entry):
     title = fields.get("title", "No Title").replace("{", "").replace("}", "")
     title = title.strip()
     title_escaped = html_escape(title)
-    
+
     # authors
     authors = get_author_list(entry)
     author_string = ", ".join(authors)
@@ -187,16 +194,15 @@ def build_markdown(entry):
 
     # Slug for permalink and filename
     slug = slugify(title)
-    
 
     # Permalink
     permalink = f"{permalink_prefix}{pub_date}-{slug}"
 
     # Excerpt: use "abstract" if available, otherwise "note" (or empty string)
-    excerpt = fields.get("abstract", "")
-    excerpt = excerpt.strip()
-    excerpt_escaped = html_escape(excerpt)
-    
+    abstract = fields.get("abstract", "")
+    abstract = abstract.strip()
+    abstract = html_escape(abstract)
+
     note = get_notes(entry)
 
     # Venue: check for "journal" first, then "booktitle"
@@ -219,19 +225,20 @@ def build_markdown(entry):
     md += f"permalink: {permalink}\n"
     md += f"authors: '{author_string}'\n"
     md += f"doi: '{get_doi(entry)}'\n"
-    
-    if excerpt_escaped:
-        md += f"excerpt: '{excerpt_escaped}'\n"
+    md += f"abstract: '{abstract}'\n"
+
+    # if excerpt_escaped:
+    #     md += f"excerpt: '{excerpt_escaped}'\n"
     md += f"date: {pub_date}\n"
     md += f"venue: '{venue_escaped}'\n"
     if slidesurl:
         md += f"slidesurl: '{slidesurl}'\n"
     if paperurl:
         md += f"paperurl: '{paperurl}'\n"
-    
+
     if note:
         md += f"note: '{note}'\n"  
-    
+
     md += f"citation: '{citation}'\n"
     md += "---\n\n"
 
