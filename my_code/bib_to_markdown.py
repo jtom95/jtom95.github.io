@@ -117,6 +117,13 @@ def get_author_list(entry):
         authors.append(author_name)
     return authors
 
+def get_notes(entry):
+    """
+    Get the notes from the BibTeX entry.
+    """
+    notes = entry.fields.get("note", "")
+    return notes
+
 
 def build_citation(entry):
     """
@@ -186,9 +193,11 @@ def build_markdown(entry):
     permalink = f"{permalink_prefix}{pub_date}-{slug}"
 
     # Excerpt: use "abstract" if available, otherwise "note" (or empty string)
-    excerpt = fields.get("abstract", fields.get("note", ""))
+    excerpt = fields.get("abstract", "")
     excerpt = excerpt.strip()
     excerpt_escaped = html_escape(excerpt)
+    
+    note = get_notes(entry)
 
     # Venue: check for "journal" first, then "booktitle"
     venue = fields.get("journal", fields.get("booktitle", ""))
@@ -210,6 +219,7 @@ def build_markdown(entry):
     md += f"permalink: {permalink}\n"
     md += f"authors: '{author_string}'\n"
     md += f"doi: '{get_doi(entry)}'\n"
+    
     if excerpt_escaped:
         md += f"excerpt: '{excerpt_escaped}'\n"
     md += f"date: {pub_date}\n"
@@ -218,6 +228,10 @@ def build_markdown(entry):
         md += f"slidesurl: '{slidesurl}'\n"
     if paperurl:
         md += f"paperurl: '{paperurl}'\n"
+    
+    if note:
+        md += f"note: '{note}'\n"  
+    
     md += f"citation: '{citation}'\n"
     md += "---\n\n"
 
