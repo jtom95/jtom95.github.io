@@ -88,10 +88,10 @@ redirect_from:
   {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>  
 
-## 🎓 **Teaching & Mentorship**  
+<!-- ## 🎓 **Teaching & Mentorship**  
 <ul>{% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
-{% endfor %}</ul>  
+{% endfor %}</ul>   -->
 
 ## 🏆 **Awards & Leadership**  
 - **Alta Scuola Politecnica** | Competitive merit-based innovation program  
