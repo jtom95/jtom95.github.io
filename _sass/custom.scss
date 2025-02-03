@@ -16,19 +16,16 @@
 }
 
 .cv-button {
-    background-color: #c0d0dc; /* Matching theme color */
-    color: black;
+    background-color: #007acc;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
     text-decoration: none;
-    padding: 8px 15px;
-    font-size: 14px;
-    font-weight: normal;
-    border-radius: 5px;
-    display: inline-block;
-    transition: background-color 0.2s;
+    font-size: 0.9em;
 }
-
+  
 .cv-button:hover {
-    background-color: #71bff6; /* Slightly darker on hover */
+    background-color: #005fa3;
 }
 
 .scholar-button {
