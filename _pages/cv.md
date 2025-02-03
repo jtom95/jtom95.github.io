@@ -20,19 +20,6 @@ redirect_from:
 
 ---
 
-## 🎓 Education  
-
-- **Ph.D. in Electrical Engineering** – Politecnico di Milano, Italy (*2020 - 2025*)  
-  *Thesis:* Towards Efficient EMC Testing for CubeSats: Development and Application of Equivalent Dipole Models  
-  *Collaboration:* European Space Agency (ESA)  
-
-- **M.Sc. in Electrical Engineering** – Politecnico di Milano & Torino (*2017 - 2020*, *cum laude*)  
-  *Alta Scuola Politecnica* – Specialized in technology, innovation & entrepreneurship  
-
-- **B.Sc. in Electrical Engineering** – Politecnico di Milano (*2014 - 2017*, *110/110*)  
-
----
-
 ## 💼 Work Experience  
 
 ### **PhD Researcher**  
@@ -51,11 +38,24 @@ redirect_from:
 - Evaluated **CERN-developed technology** for commercialization.  
 - Conducted **market feasibility studies & business planning** for scientific innovations.  
 
-### **Entrepreneurship Program – AI & IoT for Sustainability**  
+### **Entrepreneurship Program – Robotics Team**  
 📍 *VENTO Startup & Entrepreneurship School | 2018 - 2019*  
 - Developed an **AI-powered smart waste-sorting bin** using **Raspberry Pi & deep learning**.  
 - Fine-tuned the **VGG16 CNN model** for **real-time object classification**.  
 - Presented the prototype at the **OGR Torino Technology & Innovation Fair**.  
+
+---
+
+## 🎓 Education  
+
+- **Ph.D. in Electrical Engineering** – Politecnico di Milano, Italy (*2020 - 2025*)  
+  *Thesis:* Towards Efficient EMC Testing for CubeSats: Development and Application of Equivalent Dipole Models  
+  *Collaboration:* European Space Agency (ESA)  
+
+- **M.Sc. in Electrical Engineering** – Politecnico di Milano & Torino (*2017 - 2020*, *cum laude*)  
+  *Alta Scuola Politecnica* – Specialized in technology, innovation & entrepreneurship  
+
+- **B.Sc. in Electrical Engineering** – Politecnico di Milano (*2014 - 2017*, *110/110*)  
 
 ---
 
