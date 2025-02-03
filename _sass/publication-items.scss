@@ -1,8 +1,8 @@
 /* Adjusting layout to match target site */
 .publication-item {
-    border-bottom: 1px solid #ddd;
-    padding: 0.5rem 0;
-    margin-bottom: 0.5rem;
+    border-bottom: none; /* 1px solid #ddd; */
+    padding: 0.2rem 0;
+    margin-bottom: 0.2rem;
   }
   
   .publication-title {
@@ -10,6 +10,8 @@
     font-weight: normal;
     color: #444;
     text-decoration: none;
+    margin-top: 0; /* Remove extra space above title */
+    padding-top: 0; /* Ensure no padding above */
   }
   
   .publication-title a {

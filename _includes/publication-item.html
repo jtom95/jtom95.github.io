@@ -16,5 +16,6 @@
       <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
       {% if post.volume %}, vol. {{ post.volume }}{% endif %}
       {% if post.pages %}, pp. {{ post.pages }}{% endif %}
+      {% if post.doi %}, DOI: <a href="https://doi.org/{{ post.doi }}">{{ post.doi }}</a>{% endif %}
     </p>
   </div>
