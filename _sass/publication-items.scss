@@ -12,6 +12,7 @@
     text-decoration: none;
     margin-top: 0; /* Remove extra space above title */
     padding-top: 0; /* Ensure no padding above */
+    line-height: 1.2;
   }
   
   .publication-title a {
@@ -26,10 +27,14 @@
   .publication-authors {
     font-size: 0.9em;
     color: #666;
+    margin: 2px 0; /* Reduce spacing */
+    line-height: 1.2; /* Adjust line height */
   }
   
   .publication-meta {
     font-size: 0.85em;
     color: #999;
     font-style: italic;
+    margin: 2px 0; /* Reduce spacing */
+    line-height: 1.2; /* Reduce line height */
   }
