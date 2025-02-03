@@ -37,3 +37,29 @@
       <p id="citation-text"></p>
   </div>
 </div>
+
+
+<script>
+  // Opens the citation modal with the provided title and citation text.
+  function openCitationModal(title, citationText) {
+    // Set the modal title and citation content.
+    document.getElementById('citation-title').textContent = title;
+    document.getElementById('citation-text').innerHTML = citationText;
+    
+    // Display the modal.
+    document.getElementById('citation-modal').style.display = 'block';
+  }
+
+  // Closes the citation modal.
+  function closeCitationModal() {
+    document.getElementById('citation-modal').style.display = 'none';
+  }
+
+  // Optional: Close the modal if the user clicks outside of the modal content.
+  window.onclick = function(event) {
+    var modal = document.getElementById('citation-modal');
+    if (event.target === modal) {
+      closeCitationModal();
+    }
+  }
+</script>
