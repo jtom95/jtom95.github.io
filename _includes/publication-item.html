@@ -19,47 +19,4 @@
       {% if post.doi %}, DOI: <a href="https://doi.org/{{ post.doi }}">{{ post.doi }}</a>{% endif %}
       {% if post.note %}, ({{ post.note }}){% endif %}
     </p>
-
-    <!-- Buttons for Cite and Source -->
-    <div class="publication-buttons">
-      <button class="cite-button" onclick="openCitationModal('{{ post.title | escape }}', '{{ post.citation | escape }}')">Cite</button>
-      {% if post.link %}
-        <a class="source-button" href="{{ post.link }}" target="_blank">Source</a>
-      {% endif %}
   </div>
-</div>
-
-<!-- Citation Modal -->
-<div id="citation-modal" class="modal">
-  <div class="modal-content">
-      <span class="close" onclick="closeCitationModal()">&times;</span>
-      <h3 id="citation-title"></h3>
-      <p id="citation-text"></p>
-  </div>
-</div>
-
-
-<script>
-  // Opens the citation modal with the provided title and citation text.
-  function openCitationModal(title, citationText) {
-    // Set the modal title and citation content.
-    document.getElementById('citation-title').textContent = title;
-    document.getElementById('citation-text').innerHTML = citationText;
-    
-    // Display the modal.
-    document.getElementById('citation-modal').style.display = 'block';
-  }
-
-  // Closes the citation modal.
-  function closeCitationModal() {
-    document.getElementById('citation-modal').style.display = 'none';
-  }
-
-  // Optional: Close the modal if the user clicks outside of the modal content.
-  window.onclick = function(event) {
-    var modal = document.getElementById('citation-modal');
-    if (event.target === modal) {
-      closeCitationModal();
-    }
-  }
-</script>
