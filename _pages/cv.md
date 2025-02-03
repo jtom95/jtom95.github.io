@@ -9,10 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+## Download
+
 <!-- CV Download Buttons -->
 <div class="cv-buttons">
-  <a href="{{ site.baseurl }}/assets/cv/1-page-cv.pdf" target="_blank" class="cv-button">📄 1-Page CV</a>
-  <a href="{{ site.baseurl }}/assets/cv/long-cv.pdf" target="_blank" class="cv-button">📜 Long CV</a>
+  <a href="{{ site.baseurl }}/files/CVf_1page.pdf" target="_blank" class="cv-button">📄 One Page Resume</a>
+  <a href="{{ site.baseurl }}/assets/CV.pdf" target="_blank" class="cv-button">📜 Long Resume</a>
 </div>
 
 <!-- Add spacing before the main content -->
