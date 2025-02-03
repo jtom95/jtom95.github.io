@@ -35,4 +35,5 @@ This **conference presentation** covered **Gaussian Process Regression (GPR)** t
 ---
 
 📑 **[Download Slides](#)**  
+📄 **[Read the Full Paper](/publication/2024-10-01-inspection-tools-for-gaussian-process-regression-modeling-of-electromagnetic-fields-of-electronic-boards-and-chips)**  
 🔗 **[Conference Website](https://emccompo2024.it/)** 

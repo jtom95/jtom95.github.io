@@ -39,5 +39,5 @@ This **conference presentation** analyzed **Power over Ethernet (PoE) systems** 
 ---
 
 📑 **[Download Slides](/files/GEMCCON2020.pptx)** 
-📄 **[Read the Full Paper](/publications/2020-01-01-modal-analysis-of-a-typical-power-over-ethernet-configuration)**  
+📄 **[Read the Full Paper](/publication/2020-01-01-modal-analysis-of-a-typical-power-over-ethernet-configuration)**  
 🔗 **[Conference Website](https://ieeexplore.ieee.org/xpl/conhome/9456669/proceeding)**  
