@@ -23,7 +23,7 @@ redirect_from:
 ## 💼 Work Experience  
 
 ### **PhD Researcher**  
-📍 *Politecnico di Milano & ESA | 2020 - 2024*  
+📍 *Politecnico di Milano & ESA | 2020 - 2025*  
 - Developed **AI-driven methods for electromagnetic compatibility (EMC) testing** in CubeSats.  
 - Applied **Gaussian Process Regression (GPR)** & **adaptive sampling** for near-field modeling.  
 - Designed **simulation-based testing methodologies** for space electronics.  
