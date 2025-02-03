@@ -23,4 +23,4 @@ I hold a **PhD in Electrical Engineering** from **Politecnico di Milano** and **
 - Participation in the **Alta Scuola Politecnica**, an elite honors program for top students from Italy’s leading technical universities.  
 - Research experiences at **ESA, CERN, and TUHH**, where I worked on **adaptive sampling, surrogate modeling, and neural networks for electromagnetic analysis**.  
 
-Beyond my research, I am passionate about **machine learning, Linux-based development, and open-source AI tools**. You can find my projects on [**GitHub**](https://github.com/jtom95) or connect with me on [**LinkedIn**](https://www.linkedin.com/in/tomas-monopoli-1b8600161).  
+Beyond my research, I am passionate about **machine learning, Statistics, and open-source AI tools**. You can find my projects on [**GitHub**](https://github.com/jtom95) or connect with me on [**LinkedIn**](https://www.linkedin.com/in/tomas-monopoli-1b8600161).  
