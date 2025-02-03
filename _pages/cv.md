@@ -22,8 +22,8 @@ redirect_from:
 
 ## 🎓 Education  
 
-- **Ph.D. in Electrical Engineering** – Politecnico di Milano, Italy (*2020 - 2024*)  
-  *Thesis:* Data-Driven & Simulation-Based EMC Testing for CubeSats  
+- **Ph.D. in Electrical Engineering** – Politecnico di Milano, Italy (*2020 - 2025*)  
+  *Thesis:* Towards Efficient EMC Testing for CubeSats: Development and Application of Equivalent Dipole Models  
   *Collaboration:* European Space Agency (ESA)  
 
 - **M.Sc. in Electrical Engineering** – Politecnico di Milano & Torino (*2017 - 2020*, *cum laude*)  
@@ -98,6 +98,24 @@ redirect_from:
 - **CERN Summer Internship (2019)** | Selected for research & commercialization project  
 - **VENTO Startup Program (2018-2019)** | AI-driven sustainability project  
 
+---
+
+## 📑 **References**  
+
+### **Flavia Grassi**  
+**Full Professor** – Department of Electronics, Information and Bioengineering (DEIB)  
+📍 *Politecnico di Milano, Italy*  
+✉️ [flavia.grassi@polimi.it](mailto:flavia.grassi@polimi.it)  
+
+### **Johannes Wolf**  
+**EMC Senior Advisor** – Electrical Department  
+📍 *European Space Technology Center (ESTEC), European Space Agency (ESA), Noordwijk, Netherlands*  
+✉️ [Johannes.Wolf@esa.int](mailto:Johannes.Wolf@esa.int)  
+
+### **Christian Schuster**  
+**Full Professor** – Institute of Theoretical Electrical Engineering  
+📍 *Hamburg University of Technology (TUHH), Hamburg, Germany*  
+✉️ [schuster@tuhh.de](mailto:schuster@tuhh.de)  
 ---
 
 📩 **Want to connect?** Check out my work on [**GitHub**](https://github.com/jtom95) or [**LinkedIn**](https://www.linkedin.com/in/tomas-monopoli-1b8600161).  
