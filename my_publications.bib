@@ -1,12 +1,26 @@
-@inproceedings{monopoli2025EMCforSPACE,
-  author    = {Tomas Monopoli and Xinglong Wu and Sergio A. Pignari and Johannes Wolf and Flavia Grassi},
-  booktitle = {2025 ESA Workshop on Aerospace EMC},
-  title     = {Wideband Modeling and Simulation of Multiple PCB Components in CubeSat Environments},
-  howpublished = {Submitted to the 2025 ESA Workshop on Aerospace EMC},
-  year      = {2025},
-  month     = {May},
-  address   = {Seville, Spain},
+@ARTICLE{AdaptiveOTFScan,
+  author={Yang, Cheng and Monopoli, Tomas and Götschel, Sebastian and Wu, Xinglong and Grassi, Flavia and Schuster, Christian},
+  journal={IEEE Antennas and Wireless Propagation Letters}, 
+  title={Adaptive On-the-Fly Scan Method for Fast and Efficient Planar Near-Field Acquisition}, 
+  year={2025},
+  volume={24},
+  number={8},
+  pages={2143-2147},
+  keywords={Antenna measurements;Antenna arrays;Iterative methods;Wire;Accuracy;Probes;Noise measurement;Gaussian processes;Frequency measurement;Training;Adaptive sampling;Bayesian optimization (BO);Gaussian process (GP);near-field measurement;on-the-fly (OTF) scan},
+  abstract = {Recent advancements in adaptive planar near-field scanning have enhanced the use of sparse measurement data for electromagnetic field (EMF) modeling and prediction. In this work, we propose an adaptive planar scanning solution that utilizes iterative row-by-row scans, where each row is scanned on-the-fly (OTF). Both the total number of rows and their separation are dynamically adjusted and optimized through correlation analysis of the values obtained from previous measurements. For initialization, a few evenly distributed row scans, typically 4-6 OTF scans, are performed, followed by an iterative process of finding new rows to scan using Gaussian process regression-based Bayesian optimization. For validation, both numerical and experimental examples, including wire and patch antenna arrays, are provided. Results show good performance of the proposed method, enabling rapid near-field acquisition within minutes, making it suitable for large-scale and high-resolution EMF scanning applications.},
+  doi={10.1109/LAWP.2025.3557192}}
+
+@INPROCEEDINGS{monopoli2025EMCforSPACE,
+  author={Monopoli, Tomas and Wu, Xinglong and Pignari, Sergio A. and Wolf, Johannes and Grassi, Flavia},
+  booktitle={2025 ESA Workshop on Aerospace EMC (Aerospace EMC)}, 
+  title={Wideband Modeling and Simulation of Multiple PCB Components in CubeSat Environment}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Couplings;Mutual coupling;Protocols;Printed circuits;Electromagnetic compatibility;CubeSat;Integrated circuit modeling;Wideband;Testing;Risk mitigation;Infinitesimal dipole model;near field scanning;Printed circuit boards (PCB);Radiated emissions;Coupling Estimation},
   abstract = {This paper introduces a modeling method for deriving equivalent Infinitesimal Dipole Models (IDMs) of Printed Circuit Boards (PCBs) operating at multiple frequencies within a CubeSat environment. The IDMs are generated using a morphological image-processing technique, which is suitable for wideband simulation and compatible with full-wave solvers. The proposed approach is validated on two virtual PCB designs, with the IDMs constructed and simulated in a full-wave solver showing excellent agreement with the original boards. The models are then incorporated into a CubeSat-like environment to evaluate mutual coupling. Results demonstrate that IDMs can effectively predict coupling between boards in various environments, providing a robust tool for Electromagnetic Compatibility testing and design optimization.},
+  doi={10.23919/AerospaceEMC64918.2025.11074834}
 }
 
 
