@@ -1,0 +1,51 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% ------------ Page layout (reduced margins) ------------
+\usepackage[a4paper,margin=1.5cm]{geometry}
+
+% ------------ Hyperlinks ------------
+\usepackage[hidelinks]{hyperref}
+\usepackage{url} % better line-breaking for URLs
+
+%%%%%%%%%%%%%%%%%%%%%% BIBLATEX SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xcolor}
+\newcommand{\highlight}[1]{\colorbox{yellow}{#1}}
+
+\usepackage[style=numeric, sorting=none, maxbibnames=8, maxcitenames=2, doi=true, url=false]{biblatex}
+\addbibresource{my_publications.bib}
+
+% Make DOI always appear as hyperlink and allow line breaks
+\DeclareFieldFormat{doi}{%
+  \ifhyperref
+    {\href{https://doi.org/#1}{\nolinkurl{doi:#1}}}
+    {doi:\nolinkurl{#1}}}
+
+% Highlight references with keyword={highlight}
+\DeclareFieldFormat{citehyperref}{%
+  \ifkeyword{highlight}{\textcolor{blue}{#1}}{#1}}
+
+\DeclareFieldFormat{bibhyperref}{%
+  \ifkeyword{highlight}{\textcolor{blue}{#1}}{#1}}
+
+\DeclareFieldFormat{titlecase}{%
+  \ifkeyword{highlight}{\highlight{#1}}{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\section*{Publications}
+
+\begin{refsection}
+  \nocite{*}
+  \begingroup
+    \renewcommand{\bibfont}{\footnotesize}
+    \printbibliography[heading=none]
+  \endgroup
+\end{refsection}
+
+\end{document}

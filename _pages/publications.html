@@ -13,6 +13,14 @@ author_profile: true
   </div>
 {% endif %}
 
+{% if site.publications_pdf %}
+  <div class="wordwrap">
+    <button class="scholar-button" onclick="window.open('{{ site.publications_pdf }}', '_blank')">
+      List of Publications (PDF)
+    </button>
+  </div>
+{% endif %}
+
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
