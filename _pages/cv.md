@@ -13,7 +13,7 @@ redirect_from:
 <div class="cv-download-container">
   <span class="cv-download-text">📥 Download:</span>
   <div class="cv-buttons">
-    <a href="{{ site.baseurl }}/files/CVf_1page.pdf" target="_blank" class="cv-button">📄 One Page Resume</a>
+    <a href="{{ site.baseurl }}/files/CV_1page.pdf" target="_blank" class="cv-button">📄 One Page Resume</a>
     <a href="{{ site.baseurl }}/files/CV.pdf" target="_blank" class="cv-button">📜 Long Resume</a>
   </div>
 </div>
