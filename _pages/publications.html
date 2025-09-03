@@ -5,19 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">
-    <button class="scholar-button" onclick="window.open('{{ site.author.googlescholar }}', '_blank')">
-      Google Scholar
-    </button>
-  </div>
-{% endif %}
+{% if site.author.googlescholar or site.publications_pdf %}
+  <div class="wordwrap" style="margin-bottom: 1em;">
+    {% if site.author.googlescholar %}
+      <button class="pub-button" onclick="window.open('{{ site.author.googlescholar }}', '_blank')">
+        Google Scholar
+      </button>
+    {% endif %}
 
-{% if site.publications_pdf %}
-  <div class="wordwrap">
-    <button class="scholar-button" onclick="window.open('{{ site.publications_pdf }}', '_blank')">
-      List of Publications (PDF)
-    </button>
+    {% if site.publications_pdf %}
+      <button class="pub-button" onclick="window.open('{{ site.publications_pdf }}', '_blank')">
+        Full Publication List (PDF)
+      </button>
+    {% endif %}
   </div>
 {% endif %}
 
