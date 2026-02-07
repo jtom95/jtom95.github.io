@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'list_of_publications.blg'
+[386] biber-MSWIN64:340> INFO - === 
+[463] Biber.pm:419> INFO - Reading 'list_of_publications.bcf'
+[651] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[651] Biber.pm:976> INFO - Using all citekeys in bib section 1
+[652] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[685] Biber.pm:4419> INFO - Processing section 1
+[707] Biber.pm:4610> INFO - Looking for bibtex file 'my_publications.bib' for section 1
+[870] bibtex.pm:1713> INFO - LaTeX decoding ...
+[959] bibtex.pm:1519> INFO - Found BibTeX data source 'my_publications.bib'
+[1258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1258] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1258] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1277] bbl.pm:660> INFO - Writing 'list_of_publications.bbl' with encoding 'UTF-8'
+[1302] bbl.pm:763> INFO - Output to list_of_publications.bbl

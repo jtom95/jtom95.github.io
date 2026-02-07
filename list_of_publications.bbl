@@ -1,0 +1,507 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{PhysicsInformedGPR}{article}{}
+      \name{author}{5}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72bfe443a056445df32da0ab2e5368a5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fa82d5c5fa3e004d65cef2249510e571}{%
+           family={Amedeo\bibnamedelima Pignari},
+           familyi={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=917b67b55f871762bb827a959377d5f9}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{01471fed5f41517bdc26d2bd4ccbe530}
+      \strng{bibnamehash}{01471fed5f41517bdc26d2bd4ccbe530}
+      \strng{authorbibnamehash}{01471fed5f41517bdc26d2bd4ccbe530}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{01471fed5f41517bdc26d2bd4ccbe530}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Efficient Electromagnetic Near-Field Scanning Using Physics-Informed Gaussian Process Regression}
+      \field{volume}{13}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{191781\bibrangedash 191794}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2025.3629347
+      \endverb
+      \keyw{Kernel;Maximum likelihood estimation;Accuracy;Gaussian processes;Covariance matrices;Optimization;Adaptation models;Electromagnetics;Bayes methods;Fitting;Near-fields scanning;Gaussian process regression (GPR);infinitesimal dipole model;Bayesian optimization (BO);radiated emissions}
+    \endentry
+    \entry{AdaptiveOTFScan}{article}{}
+      \name{author}{6}{}{%
+        {{hash=29ccf7aa9391a3e9e13ba3b57f4c48eb}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=81588866ef46042fbe98a398c385c70f}{%
+           family={Götschel},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=72bfe443a056445df32da0ab2e5368a5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aafbdabaa56261ae725b8b74fd72483c}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{298930a5e4e5e87d1a5c84f03462ccaa}
+      \strng{fullhash}{466cfd349571278d493afbf1c0781fb6}
+      \strng{bibnamehash}{466cfd349571278d493afbf1c0781fb6}
+      \strng{authorbibnamehash}{466cfd349571278d493afbf1c0781fb6}
+      \strng{authornamehash}{298930a5e4e5e87d1a5c84f03462ccaa}
+      \strng{authorfullhash}{466cfd349571278d493afbf1c0781fb6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent advancements in adaptive planar near-field scanning have enhanced the use of sparse measurement data for electromagnetic field (EMF) modeling and prediction. In this work, we propose an adaptive planar scanning solution that utilizes iterative row-by-row scans, where each row is scanned on-the-fly (OTF). Both the total number of rows and their separation are dynamically adjusted and optimized through correlation analysis of the values obtained from previous measurements. For initialization, a few evenly distributed row scans, typically 4-6 OTF scans, are performed, followed by an iterative process of finding new rows to scan using Gaussian process regression-based Bayesian optimization. For validation, both numerical and experimental examples, including wire and patch antenna arrays, are provided. Results show good performance of the proposed method, enabling rapid near-field acquisition within minutes, making it suitable for large-scale and high-resolution EMF scanning applications.}
+      \field{journaltitle}{IEEE Antennas and Wireless Propagation Letters}
+      \field{number}{8}
+      \field{title}{Adaptive On-the-Fly Scan Method for Fast and Efficient Planar Near-Field Acquisition}
+      \field{volume}{24}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{2143\bibrangedash 2147}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/LAWP.2025.3557192
+      \endverb
+      \keyw{Antenna measurements;Antenna arrays;Iterative methods;Wire;Accuracy;Probes;Noise measurement;Gaussian processes;Frequency measurement;Training;Adaptive sampling;Bayesian optimization (BO);Gaussian process (GP);near-field measurement;on-the-fly (OTF) scan}
+    \endentry
+    \entry{monopoli2025EMCforSPACE}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72bfe443a056445df32da0ab2e5368a5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=446d1cbb887c41efcc78f7906b12b29d}{%
+           family={Pignari},
+           familyi={P\bibinitperiod},
+           given={Sergio\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=917b67b55f871762bb827a959377d5f9}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{820c273514055d104adeb2ee662ce130}
+      \strng{bibnamehash}{820c273514055d104adeb2ee662ce130}
+      \strng{authorbibnamehash}{820c273514055d104adeb2ee662ce130}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{820c273514055d104adeb2ee662ce130}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper introduces a modeling method for deriving equivalent Infinitesimal Dipole Models (IDMs) of Printed Circuit Boards (PCBs) operating at multiple frequencies within a CubeSat environment. The IDMs are generated using a morphological image-processing technique, which is suitable for wideband simulation and compatible with full-wave solvers. The proposed approach is validated on two virtual PCB designs, with the IDMs constructed and simulated in a full-wave solver showing excellent agreement with the original boards. The models are then incorporated into a CubeSat-like environment to evaluate mutual coupling. Results demonstrate that IDMs can effectively predict coupling between boards in various environments, providing a robust tool for Electromagnetic Compatibility testing and design optimization.}
+      \field{booktitle}{2025 ESA Workshop on Aerospace EMC (Aerospace EMC)}
+      \field{title}{Wideband Modeling and Simulation of Multiple PCB Components in CubeSat Environment}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/AerospaceEMC64918.2025.11074834
+      \endverb
+      \keyw{Couplings;Mutual coupling;Protocols;Printed circuits;Electromagnetic compatibility;CubeSat;Integrated circuit modeling;Wideband;Testing;Risk mitigation;Infinitesimal dipole model;near field scanning;Printed circuit boards (PCB);Radiated emissions;Coupling Estimation}
+    \endentry
+    \entry{MorphSearch}{article}{}
+      \name{author}{7}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72bfe443a056445df32da0ab2e5368a5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=29ccf7aa9391a3e9e13ba3b57f4c48eb}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=aafbdabaa56261ae725b8b74fd72483c}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=83e6933a246d4580a7d9f689c1f27b3e}{%
+           family={Pignari},
+           familyi={P\bibinitperiod},
+           given={Sergio\bibnamedelima Amedeo},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=917b67b55f871762bb827a959377d5f9}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{2881f9c258e46b4d3dd92212ffb822e1}
+      \strng{bibnamehash}{2881f9c258e46b4d3dd92212ffb822e1}
+      \strng{authorbibnamehash}{2881f9c258e46b4d3dd92212ffb822e1}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{2881f9c258e46b4d3dd92212ffb822e1}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Near-field modeling techniques have proven to be very useful for electromagnetic compatibility evaluation. In this article, a new method for building infinitesimal dipole models using near-field phaseless scans is presented. The proposed approach enables the identification of optimal dipole source locations by comparing the pattern of an infinitesimal dipole with the measured field maps. Finally, the dipole moments are fitted by using the Levenberg–Marquardt algorithm. This method is validated on two different virtual devices and on measurements from a real device. These test cases cover a range of frequencies (156, 381, 514, and 1 GHz) and scan dimensions (9.4 cm × 8.4 cm and 10.6 cm × 14 cm), demonstrating the robustness and versatility of the proposed method.}
+      \field{issn}{1558-187X}
+      \field{journaltitle}{IEEE Transactions on Electromagnetic Compatibility}
+      \field{title}{Morphological Search for Near-Field Equivalent Infinitesimal Dipole Models}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TEMC.2024.3492701
+      \endverb
+      \keyw{Magnetic resonance imaging;Kernel;Electromagnetic compatibility;Substrates;Probes;Optimization;Magnetic moments;Vectors;Testing;Printed circuits;Infinitesimal dipole model (IDM);morphological erosion;near field scanning;printed circuit boards (PCBs);radiated emissions (RE)}
+    \endentry
+    \entry{compo2024}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72bfe443a056445df32da0ab2e5368a5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=0190ba1f8473f2e0f8c0869e84a939d4}{%
+           family={Pignari},
+           familyi={P\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=917b67b55f871762bb827a959377d5f9}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{5c86f84b2a2413a44a8a043813ed4485}
+      \strng{bibnamehash}{5c86f84b2a2413a44a8a043813ed4485}
+      \strng{authorbibnamehash}{5c86f84b2a2413a44a8a043813ed4485}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{5c86f84b2a2413a44a8a043813ed4485}
+      \field{extraname}{4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gaussian Process Regression (GPR) has emerged as a powerful technique for building surrogate models of electromagneticfield scans in electronic systems. However, standard GPR models often struggle to capture the non-isotropic and complex spatial patterns commonly found in electronic board field distributions. In this paper, we propose some inspection tools to analyze the underlying correlation structure in the measurement data. This analysis is demonstrated by considering as input data the near field emissions from a bent miscrostrip line (full-wave simulations) and a chip (near-field measurements).}
+      \field{booktitle}{2024 14th International Workshop on the Electromagnetic Compatibility of Integrated Circuits (EMC Compo)}
+      \field{month}{10}
+      \field{title}{Inspection tools for Gaussian Process Regression Modeling of Electromagnetic Fields of Electronic Boards and Chips}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{56\bibrangedash 59}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/EMCCompo61192.2024.10742047
+      \endverb
+      \keyw{Gaussian Process Regression;Near-field scanning;Printed circuit boards (PCB);Integrated Circuit (IC)}
+    \endentry
+    \entry{monopoli2024partial}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72bfe443a056445df32da0ab2e5368a5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=29ccf7aa9391a3e9e13ba3b57f4c48eb}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=446d1cbb887c41efcc78f7906b12b29d}{%
+           family={Pignari},
+           familyi={P\bibinitperiod},
+           given={Sergio\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=917b67b55f871762bb827a959377d5f9}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{d80cbc1ab032c7db6ddf2e0ac44284b0}
+      \strng{bibnamehash}{d80cbc1ab032c7db6ddf2e0ac44284b0}
+      \strng{authorbibnamehash}{d80cbc1ab032c7db6ddf2e0ac44284b0}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{d80cbc1ab032c7db6ddf2e0ac44284b0}
+      \field{extraname}{5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work uses the partial image expansion method to build an infinitesimal dipole model (IDM) of a physical Printed Circuit Board (PCB) starting from the measured near-fields. Using partial image expansion allows to include the substrate directly in the equivalent model, that is composed of PEC plane, substrate and dipole sources. The addition of the dielectric increases the model versatility allowing for a wider range of simulations to be run (e.g. closed environments, multiple boards, etc.). In this paper, the radiation model of the physical device is obtained and imported in a commercial full-wave solver (HFSS). The simulation results are finally compared with the original measurements, experimentally validating the accuracy of an IDM built using partial image expansion.}
+      \field{booktitle}{2024 IEEE Joint International Symposium on Electromagnetic Compatibility, Signal \& Power Integrity: EMC Japan / Asia-Pacific International Symposium on Electromagnetic Compatibility (EMC Japan/APEMC Okinawa)}
+      \field{title}{Partial Image Expansion Applied to Real Near-Field Measurement Data Modeling}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{138\bibrangedash 141}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.23919/EMCJapan/APEMCOkinaw58965.2024.10585137
+      \endverb
+      \keyw{Simulation;Printed circuits;Estimation;Electromagnetic compatibility;Data models;Dielectric measurement;Numerical models;Method of Images;Infinitesimal dipole model;Near-field scanning;Printed circuit boards (PCB);Radiated fields}
+    \endentry
+    \entry{10297988}{article}{}
+      \name{author}{5}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72bfe443a056445df32da0ab2e5368a5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+        {{hash=83e6933a246d4580a7d9f689c1f27b3e}{%
+           family={Pignari},
+           familyi={P\bibinitperiod},
+           given={Sergio\bibnamedelima Amedeo},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=917b67b55f871762bb827a959377d5f9}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{71cb7b0a4ad000efb2c3bb53812b738b}
+      \strng{bibnamehash}{71cb7b0a4ad000efb2c3bb53812b738b}
+      \strng{authorbibnamehash}{71cb7b0a4ad000efb2c3bb53812b738b}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{71cb7b0a4ad000efb2c3bb53812b738b}
+      \field{extraname}{6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work introduces a novel method to include the passive structure of a printed circuit board into an infinitesimal dipole model that is reconstructed from near-field measurement data. Specifically, the proposed approach enables the construction of equivalent models that include dipole sources, substrate, and perfect electric conductor plane. The electromagnetic near-fields of the infinitesimal dipoles in this configuration are estimated through an adaptation of the partial image expansion technique. The proposed method has the capability to provide accurate results for a wide variety of configurations. Furthermore, it can be easily incorporated into existing dipole array optimization workflows with minimal added computational complexity.}
+      \field{journaltitle}{IEEE Transactions on Electromagnetic Compatibility}
+      \field{number}{6}
+      \field{title}{A New Method Exploiting Partial Image Expansion to Include Substrate and Ground in Dipole-Based Near-Field Models}
+      \field{volume}{65}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{1878\bibrangedash 1887}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TEMC.2023.3325242
+      \endverb
+      \keyw{Substrates;Electromagnetic compatibility;Permittivity;Integrated circuit modeling;Printed circuits;Infinitesimal dipole model;method of images;near-field scanning;printed circuit boards (PCB);radiated fields}
+    \endentry
+    \entry{2023uncertainty}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72bfe443a056445df32da0ab2e5368a5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+        {{hash=446d1cbb887c41efcc78f7906b12b29d}{%
+           family={Pignari},
+           familyi={P\bibinitperiod},
+           given={Sergio\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e7215ff160b0afb0720fd20caa9fad0a}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Karl-Friedrich\bibnamedelima Johannes},
+           giveni={K\bibinithyphendelim F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{660b4ab9145f1b94fa9927472afc48c6}
+      \strng{bibnamehash}{660b4ab9145f1b94fa9927472afc48c6}
+      \strng{authorbibnamehash}{660b4ab9145f1b94fa9927472afc48c6}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{660b4ab9145f1b94fa9927472afc48c6}
+      \field{extraname}{7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work stochastically analyzes the positioning uncertainty of electric near-field probes. For this purpose, a virtual test bench is built and simulated in a full-wave solver using a Monte Carlo method, showing its impact on the probe factor.}
+      \field{booktitle}{2023 IEEE 7th Global Electromagnetic Compatibility Conference (GEMCCON)}
+      \field{title}{Positioning Uncertainty of Near-Field Probes}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{57\bibrangedash 57}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/GEMCCON57842.2023.10078196
+      \endverb
+    \endentry
+    \entry{2020modal}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d5086a8fc09dc2166a65cf4c27e46e7d}{%
+           family={Borgese},
+           familyi={B\bibinitperiod},
+           given={Antonino},
+           giveni={A\bibinitperiod}}}%
+        {{hash=933a4f0a6f2b292a59fa47684f782b36}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaokang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=11ba9ed73cfebe870002feccff910adb}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Flavia},
+           giveni={F\bibinitperiod}}}%
+        {{hash=446d1cbb887c41efcc78f7906b12b29d}{%
+           family={Pignari},
+           familyi={P\bibinitperiod},
+           given={Sergio\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{f6eeef76f09724d5e1094183d1eac482}
+      \strng{bibnamehash}{f6eeef76f09724d5e1094183d1eac482}
+      \strng{authorbibnamehash}{f6eeef76f09724d5e1094183d1eac482}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{f6eeef76f09724d5e1094183d1eac482}
+      \field{extraname}{8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this work, a transmission-line model of a typical Power over Ethernet configuration, where data and power share the same transmission medium, is investigated by resorting to modal decomposition. It is shown that in the ideal case in which all circuit components behave ideally, data and power propagate through different paths without interference. The obtained modal circuits are then used as starting point to investigate the detrimental effects on signal transmission introduced by possible imbalance (i.e., asymmetry with respect to ground) affecting the involved circuit components.}
+      \field{booktitle}{2020 6th Global Electromagnetic Compatibility Conference (GEMCCON)}
+      \field{title}{Modal Analysis of a Typical Power over Ethernet Configuration}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/GEMCCON50979.2020.9456742
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -5,13 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar or site.publications_pdf %}
+{% if site.author.googlescholar or site.publications_pdf or true %}
   <div class="wordwrap" style="margin-bottom: 1em;">
     {% if site.author.googlescholar %}
       <button class="scholar-button" onclick="window.open('{{ site.author.googlescholar }}', '_blank')">
         Google Scholar
       </button>
     {% endif %}
+    
+    <button class="scholar-button" onclick="window.open('https://www.webofscience.com/wos/author/record/KPB-0295-2024', '_blank')">
+      Web of Science
+    </button>
 
     {% if site.publications_pdf %}
       <button class="pub-button" onclick="window.open('{{ site.publications_pdf }}', '_blank')">
