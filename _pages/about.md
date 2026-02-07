@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 
-I am a **Postdoctoral Researcher at Aalborg University (AAU Energy)** and a **PhD graduate from Politecnico di Milano**. My work focuses on the frontier of **Physics-Informed Machine Learning (PIML)**, **Bayesian Inference**, and **Digital Twins** for power electronic systems.
+**Postdoctoral Researcher at Aalborg University (AAU Energy)** and a **PhD graduate from Politecnico di Milano**. My work focuses on the frontier of **Physics-Informed Machine Learning (PIML)**, **Bayesian Inference**, and **Digital Twins** for power electronic systems.
 
-I currently lead research within the **PHY-CALIPER project** (funded by the Villum Foundation), where I develop AI-driven pipelines to "discover unknown physics" and calibrate predictive models for the next generation of reliable energy systems.
+I currently lead research within the [**PHY-CALIPER project**](https://vbn.aau.dk/da/projects/phy-caliper-discovering-unknown-physics-for-calibrating-predictiv/) (funded by the Villum Foundation), where I develop **AI-driven pipelines** to "discover unknown physics" and calibrate **predictive models** for the next generation of reliable energy systems.
 
 ---
 
@@ -20,7 +20,7 @@ I currently lead research within the **PHY-CALIPER project** (funded by the Vill
 * **Uncertainty Quantification (UQ)**: Developing robust probabilistic frameworks to quantify model confidence in safety-critical applications.
 * **Bayesian Inference & System Identification**: Utilizing state-of-the-art statistical methods to extract hidden physical parameters from noisy, high-frequency data.
 * **Hybrid Optimization**: Navigating complex loss landscapes using high-order dynamics and second-order optimization.
-* **Gaussian Process Regression & Neural Networks**: Estimating physical fields from limited samples, with dynamic strategies for adaptive sampling. 
+* **Gaussian Process Regression / Kriging Models**: Estimating physical fields from limited samples, with dynamic strategies for adaptive sampling. 
 * **Electromagnetic Compatibility (EMC)**: AI-driven modeling for CubeSats and space-grade power electronics.
 
 ---
@@ -32,8 +32,8 @@ I currently lead research within the **PHY-CALIPER project** (funded by the Vill
 I am building a **Knowledge Discovery Pipeline** that automates the identification of unmodeled physical factors in power converters. By leveraging **Bayesian Learning** and **Hierarchical Kalman Tracking**, my research enables Digital Twins to sense component aging and environmental drifts with unprecedented accuracy. A core focus is the development of **Novel Uncertainty Quantification** methods that provide a mathematically grounded "confidence score" for predictive maintenance.
 
 
-### **Wideband Modeling and Electromagnetic Coupling Prediction of PCB Components in CubeSat Environments** 
-📢 **Presented at 2025 ESA Workshop on Aerospace EMC | **[Read more](/talks/ESA_workshop_2025)** 
+### 🔹 **Wideband Modeling and Electromagnetic Coupling Prediction of PCB Components in CubeSat Environments** 
+📢 **Presented at 2025 ESA Workshop on Aerospace EMC | **[Read more](/talks/ESA_workshop_2025)**
 Developed **Morphological Dipole Search (MDS)** to derive equivalent **Infinitesimal Dipole Models (IDMs)**. This work enables **rapid, wideband prediction** of **mutual coupling** and electromagnetic interference (EMI) in the dense stacking configurations typical of **CubeSats**.
 
 

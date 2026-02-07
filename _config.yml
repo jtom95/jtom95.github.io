@@ -25,11 +25,11 @@ author:
   avatar           : "Tomas_Image.png"
   name             : "Tomas Monopoli"
   pronouns         : # example: "she/her"  
-  bio              : "PhD in Electrical Engineering | AI & Electromagnetics | Space Systems"
-  location         : "Milan, Italy"
-  employer         : "Politecnico di Milano"
+  bio              : "Postdoc in Physics-Informed AI & Bayesian Modeling | Uncertainty Quantification | Power & Space Systems"
+  location         : "Aalborg, Denmark"
+  employer         : "Aalborg University"
   uri              : # URL
-  email            : "tomas.monopoli@polimi.it" 
+  email            : "tmon@energy.aau.dk" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
