@@ -15,7 +15,8 @@
 \usepackage{xcolor}
 \newcommand{\highlight}[1]{\colorbox{yellow}{#1}}
 
-\usepackage[style=numeric, sorting=none, maxbibnames=8, maxcitenames=2, doi=true, url=false]{biblatex}
+% CHANGED: sorting=ydnt for reverse chronological, added defernumbers=true
+\usepackage[style=numeric, sorting=ydnt, defernumbers=true, maxbibnames=8, maxcitenames=2, doi=true, url=false]{biblatex}
 \addbibresource{my_publications.bib}
 
 % Make DOI always appear as hyperlink and allow line breaks
@@ -34,6 +35,12 @@
 \DeclareFieldFormat{titlecase}{%
   \ifkeyword{highlight}{\highlight{#1}}{#1}}
 
+% NEW: Automatically bold the name "Monopoli" in the author list
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifdefstring{\namepartfamily}{Monopoli}{\textbf{#1}}{#1}}
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifdefstring{\namepartfamily}{Monopoli}{\textbf{#1}}{#1}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -44,7 +51,14 @@
   \nocite{*}
   \begingroup
     \renewcommand{\bibfont}{\footnotesize}
-    \printbibliography[heading=none]
+    
+    % NEW: Categorized bibliography printing
+    \printbibliography[type=article, title={Journal Articles}, heading=subbibliography]
+    
+    \vspace{1em}
+    
+    \printbibliography[type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
+    
   \endgroup
 \end{refsection}
 
