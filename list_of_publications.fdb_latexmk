@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber list_of_publications"] 1783332453.00663 "list_of_publications.bcf" "list_of_publications.bbl" "list_of_publications" 1783332464.52155 0
-  "list_of_publications.bcf" 1783332466 108848 e5d16d6a5b7434b99d5b3baec83885cd "pdflatex"
-  "my_publications.bib" 1783331970 12096 591daebf003cb4f8c95b482e54203e2e ""
+["biber list_of_publications"] 1783336927.99378 "list_of_publications.bcf" "list_of_publications.bbl" "list_of_publications" 1783336934.35571 0
+  "list_of_publications.bcf" 1783336936 108848 e5d16d6a5b7434b99d5b3baec83885cd "pdflatex"
+  "my_publications.bib" 1783336918 12514 e1f68c6e8032365990674fd3d25726d3 ""
   (generated)
   "list_of_publications.bbl"
   "list_of_publications.blg"
   (rewritten before read)
-["pdflatex"] 1783332462.77701 "g:/WebsiteGithub/jtom95.github.io/list_of_publications.tex" "list_of_publications.pdf" "list_of_publications" 1783332464.52348 0
+["pdflatex"] 1783336932.76278 "g:/WebsiteGithub/jtom95.github.io/list_of_publications.tex" "list_of_publications.pdf" "list_of_publications" 1783336934.35702 0
   "C:/Users/JC28LS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1783332102 193613 e0ccf7e503e33aa5abc589ae20e85a47 ""
   "C:/Users/JC28LS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1783332458 22504 d25058951e4905fd751cc4341b0537a8 ""
   "C:/Users/JC28LS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1783332460 31952 46ee8376f245b55b63262c07e2372b3f ""
@@ -94,10 +94,10 @@
   "C:/Users/JC28LS/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/JC28LS/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "g:/WebsiteGithub/jtom95.github.io/list_of_publications.tex" 1783332452 2027 15eaf87c1a02a2fe557f57770947a66d ""
-  "list_of_publications.aux" 1783332466 2094 8b4e568fdac1e6050bd262f9157ecc37 "pdflatex"
-  "list_of_publications.bbl" 1783332456 31471 b3bae33ec69ce9e399305c7733bf19a7 "biber list_of_publications"
-  "list_of_publications.out" 1783332464 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "list_of_publications.run.xml" 1783332466 2422 fd7837990bbdd88312c5a082e6192e1c "pdflatex"
+  "list_of_publications.aux" 1783336934 2257 1fef5f2f64f0f6b7f753277d102bf076 "pdflatex"
+  "list_of_publications.bbl" 1783336932 33224 d8dc753d7442596e17f7a64f27fdf0e6 "biber list_of_publications"
+  "list_of_publications.out" 1783336934 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "list_of_publications.run.xml" 1783336936 2422 fd7837990bbdd88312c5a082e6192e1c "pdflatex"
   "list_of_publications.tex" 1783332452 2027 15eaf87c1a02a2fe557f57770947a66d ""
   (generated)
   "list_of_publications.aux"

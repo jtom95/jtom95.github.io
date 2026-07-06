@@ -19,6 +19,47 @@
 
 \refsection{1}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{Monopoli2026ECCE}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=127ae9e40ecea5e464a241c7791309e8}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b9886553dc59cbe2db540b43972c9599}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiahong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=09e9a1baabb962a0e83ad3f4361341d4}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vancouver, BC, Canada}%
+      }
+      \strng{namehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{fullhash}{ebd8af4d5f09dfc71b734d2960f47675}
+      \strng{fullhashraw}{ebd8af4d5f09dfc71b734d2960f47675}
+      \strng{bibnamehash}{ebd8af4d5f09dfc71b734d2960f47675}
+      \strng{authorbibnamehash}{ebd8af4d5f09dfc71b734d2960f47675}
+      \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
+      \strng{authorfullhash}{ebd8af4d5f09dfc71b734d2960f47675}
+      \strng{authorfullhashraw}{ebd8af4d5f09dfc71b734d2960f47675}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2026 IEEE Energy Conversion Congress and Exposition (ECCE)}
+      \field{month}{10}
+      \field{note}{Accepted for publication}
+      \field{title}{A Bayesian Gradient-Based Framework for Probabilistic Parameter Identification of DC--DC Converters}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{WidebandNF_CriticalFreqs}{article}{}{}
       \name{author}{7}{}{%
         {{hash=127ae9e40ecea5e464a241c7791309e8}{%
@@ -65,7 +106,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{2881f9c258e46b4d3dd92212ffb822e1}
       \strng{authorfullhashraw}{2881f9c258e46b4d3dd92212ffb822e1}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -119,7 +160,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{01471fed5f41517bdc26d2bd4ccbe530}
       \strng{authorfullhashraw}{01471fed5f41517bdc26d2bd4ccbe530}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -172,7 +213,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{820c273514055d104adeb2ee662ce130}
       \strng{authorfullhashraw}{820c273514055d104adeb2ee662ce130}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -284,7 +325,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{5c86f84b2a2413a44a8a043813ed4485}
       \strng{authorfullhashraw}{5c86f84b2a2413a44a8a043813ed4485}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -343,7 +384,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{d80cbc1ab032c7db6ddf2e0ac44284b0}
       \strng{authorfullhashraw}{d80cbc1ab032c7db6ddf2e0ac44284b0}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -406,7 +447,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{2881f9c258e46b4d3dd92212ffb822e1}
       \strng{authorfullhashraw}{2881f9c258e46b4d3dd92212ffb822e1}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -460,7 +501,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{660b4ab9145f1b94fa9927472afc48c6}
       \strng{authorfullhashraw}{660b4ab9145f1b94fa9927472afc48c6}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -512,7 +553,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{71cb7b0a4ad000efb2c3bb53812b738b}
       \strng{authorfullhashraw}{71cb7b0a4ad000efb2c3bb53812b738b}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -567,7 +608,7 @@
       \strng{authornamehash}{d441c4cf4a2ac36a19e744d0e572621c}
       \strng{authorfullhash}{f6eeef76f09724d5e1094183d1eac482}
       \strng{authorfullhashraw}{f6eeef76f09724d5e1094183d1eac482}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
