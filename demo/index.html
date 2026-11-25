@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capacitor tracking demo · Tomas Monopoli</title>
+<meta name="description" content="A 4 % capacitance loss on a laboratory buck converter, detected from the signals its controller already measures, with no false alarm on the other parts.">
+<meta property="og:title" content="A 4 % capacitance loss, detected from the controller's own signals">
+<meta property="og:description" content="Laboratory buck converter: one small capacitor removed per check; the estimator flags the capacitor at −4 % (99.2 % sure) and never raises an alarm on the other parts.">
+<meta property="og:image" content="https://jtom95.github.io/demo/poster.jpg">
+<style>
+  :root { --navy: #211A52; --ink: #1A1A1A; --ink2: #4D4D4D; --ink3: #8C8C8C; --red: #E64B35; --tint: #F2F4F9; --blue: #34519A; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif; color: var(--ink); background: #fff; line-height: 1.45; }
+  header { background: var(--navy); color: #fff; padding: 18px 16px 16px; }
+  header .wrap, main { max-width: 1100px; margin: 0 auto; }
+  header h1 { font-size: clamp(20px, 4.6vw, 34px); line-height: 1.15; margin: 0; }
+  header p { margin: 6px 0 0; color: #DCDAF0; font-size: clamp(14px, 2.6vw, 18px); }
+  main { padding: 14px 16px 32px; }
+  video { width: 100%; height: auto; display: block; border-radius: 6px; background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,.12); }
+  .hint { color: var(--ink3); font-size: 14px; margin: 6px 0 0; }
+  h2 { font-size: 20px; margin: 24px 0 8px; }
+  ol { padding-left: 22px; margin: 0; }
+  li { margin: 0 0 8px; color: var(--ink2); }
+  li b { color: var(--ink); }
+  .flag { color: var(--red); font-weight: 700; }
+  .box { background: var(--tint); border-left: 5px solid var(--blue); border-radius: 0 6px 6px 0; padding: 10px 14px; margin-top: 18px; color: var(--ink2); }
+  .contact { margin-top: 24px; font-size: 15px; color: var(--ink2); }
+  a { color: var(--blue); }
+  @media (orientation: portrait) and (max-width: 700px) { .hint::after { content: " Turn your phone sideways for a larger view."; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>A 4&nbsp;% capacitance loss, detected from the controller's own signals</h1>
+    <p>Laboratory buck converter · no extra sensors · no false alarms</p>
+  </div>
+</header>
+<main>
+  <video src="capacitor_tracking.mp4" poster="poster.jpg" autoplay muted loop playsinline controls preload="auto"></video>
+  <p class="hint">44 s, loops.</p>
+
+  <h2>What you are seeing</h2>
+  <ol>
+    <li><b>The test.</b> The converter's output capacitance is a bank of capacitors, several of them small
+      (about 2&nbsp;% of the total each). At each check we remove one small capacitor: −2&nbsp;%, −4&nbsp;%, −6&nbsp;%, −8&nbsp;%.</li>
+    <li><b>The data.</b> Only the inductor current and output voltage the controller already samples for its control
+      loop. No extra sensor is added.</li>
+    <li><b>The estimate.</b> At every check, the algorithm fits the converter's circuit equations to these samples and
+      returns every physical parameter (capacitance, inductance, resistances, switch resistance) together with how
+      certain it is.</li>
+    <li><b>The decision.</b> The bars show how sure we are that each part has changed since the first check. An alarm
+      is raised at 99&nbsp;%. The capacitor is <span class="flag">flagged at the second check (−4&nbsp;%, 99.2&nbsp;% sure)</span>;
+      the parts we did not touch never reach the alarm level.</li>
+  </ol>
+  <div class="box">The certainty is not a tuning knob: on simulated records with known truth, 95&nbsp;% of the stated
+    95&nbsp;% intervals contain the true value, for every parameter of a buck converter and a three-phase inverter.</div>
+
+  <div class="contact">
+    Tomas Monopoli, Jiahong Liu, Shuai Zhao · AAU Energy, Aalborg University<br>
+    T. Monopoli, J. Liu, S. Zhao, “Uncertainty-aware parameter estimation for condition monitoring of power
+    converters,” submitted to IEEE Transactions on Power Electronics, 2026.<br>
+    Contact: <a href="mailto:tmon@energy.aau.dk">tmon@energy.aau.dk</a> · <a href="https://jtom95.github.io/">jtom95.github.io</a>
+  </div>
+</main>
+</body>
+</html>
